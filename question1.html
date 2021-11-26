@@ -5,92 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>object in java script</title>
     <style>
-         .container{
-             color: rgb(75, 11, 38);
-             background-color: tomato;
-             text-align: center;
-             height: 700px;
-         }
-         h3{
-             color: rgb(26, 4, 66);
+        body{
+            background-color: rgb(199, 235, 164);
+            text-align: center;
+            padding: 20px 30px 30px 30px;
+        }
+        h3 {
+            color: rgb(8, 6, 6);
+            background-color: rgb(160, 214, 99);
+            font-family: sans-serif;
+            border: 2px solid rgb(7, 7, 7);
+        
+        }
+
+        li {
+            color: rgb(10, 8, 8);
+            background-color: rgb(85, 245, 125);
+            font-style: sans-serif;
+            border: 1px solid rgb(6, 6, 8);
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Object creation in javaScript</h1>
-        <h2>Assignment</h2>
-        <h3>Question : Create an object 'Person' in Java Script, which will have 'FirstName', 'LastName' and 'Office
-            Address' as properties within it. Create three Persons and print all those three properties.</h3>
+    <h1>Shivam Jaiswal_2006101</h1>
+	<h2>Assignment</h2>
+    <h3>Question: Create an object ‘Person’ in Java Script, which will have ‘FirstName’, ‘LastName’ and ‘Office Address’ as
+        properties within it. Create three Persons and print all those three properties.</h3>
+    <br>
+        <h3>Check your console</h3><br>
+    <div>
+        <ul>
+            <li><b>Right click on webpage</b></li>
+            <li><b>Click inspect option</b></li>
+            <li><b>Click console option</b></li>
+        </ul>
     </div>
-
-    <script>
-        console.log("This is the first and better way to create a object.");
-
-        var person = {
-            person1: {
-                FirstName: "Shivam",
-                LastName: "Jaiswal",
-                OfficeAddress: "Pattigar T. Bahadurganj",
-            },
-            person2: {
-                FirstName: "Pawan",
-                LastName: "Jaiswal",
-                OfficeAddress: "Ghazipur,Uttar Pradesh",
-            },
-            person3: {
-                FirstName: "Amitesh",
-                LastName: "Kumar",
-                OfficeAddress: "Bihar",
-            },
-        };
-        console.log("FirstName of person1 is " + person.person1.FirstName);
-        console.log("LastName of person1 is " + person.person1.LastName);
-        console.log("OfficeAddress of person1 is " + person.person1.OfficeAddress);
-        console.log("-----------------------------------------");
-        console.log("FirstName of person2 is " + person.person2.FirstName);
-        console.log("LastName of person2 is " + person.person2.LastName);
-        console.log("OfficeAddress of person2 is " + person.person2.OfficeAddress);
-        console.log("-----------------------------------------");
-        console.log("FirstName of person3 is " + person.person3.FirstName);
-        console.log("LastName of person3 is " + person.person3.LastName);
-        console.log("OfficeAddress of person3 is " + person.person3.OfficeAddress);
-
-        console.log("********************************************");
-        console.log("second way to create the object in javaScript.")
-
-        var person = new Object();
-        person.person1 = new Object();
-        person.person1.FirstName = "Shivam";
-        person.person1.LastName = "Jaiswal";
-        person.person1.OfficeAddress = "Pattigar T. Bahadurganj";
-
-        person.person2 = new Object();
-        person.person2.FirstName = "Pawan";
-        person.person2.LastName = "Jaiswal";
-        person.person2.OfficeAddress = "Ghazipur,Uttar Pradesh";
-
-        person.person3 = new Object();
-        person.person3.FirstName = "Amitesh";
-        person.person3.LastName = "Kumar";
-        person.person3.OfficeAddress = "Bihar";
-
-        console.log("FirstName of person1 is " + person.person1.FirstName);
-        console.log("LastName of person1 is " + person.person1.LastName);
-        console.log("OfficeAddress of person1 is " + person.person1.OfficeAddress);
-        console.log("-----------------------------------------");
-        console.log("FirstName of person2 is " + person.person2.FirstName);
-        console.log("LastName of person2 is " + person.person2.LastName);
-        console.log("OfficeAddress of person2 is " + person.person2.OfficeAddress);
-        console.log("-----------------------------------------");
-        console.log("FirstName of person3 is " + person.person3.FirstName);
-        console.log("LastName of person3 is " + person.person3.LastName);
-        console.log("OfficeAddress of person3 is " + person.person3.OfficeAddress);
-
-    </script>
+    <script src="person.js"> </script>
 </body>
 
 </html>
